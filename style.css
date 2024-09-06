@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    width: 50%;
+    height: 200vh;
+    margin: auto;
+    border: 1px solid blue;
+}
+.navbar-container{
+    /* border: 1px solid  red; */
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+.navbar-top{
+    /* border: 1px solid blue; */
+    width: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.logo{
+    color: #343da1;
+    font-weight: bolder;
+    margin-right: 80px;
+}
+.top-icon{
+    position: relative;
+    margin-right: 9px;
+    margin-left: 9px;
+    padding: 5px;
+}
+.top-icon span{
+    margin-left: 15px;
+}
+
+.message-count{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 14px;
+    height: 14px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.nav-bar-middle{
+    width: 340px;
+    margin: auto;
+    margin-top: 11px;
+    /* border: 1px solid red; */
+    padding-left: 25px; 
+}
+.nav-bar-middle i{
+    margin-right: 39px;   
+}
+.fa-home{
+    color: #343da1;
+}
+.user-count{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 14px;
+    height: 14px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+}
+.fa-user-circle{
+    position: relative;
+    margin-right: 7px;
+    padding: 5px;
+}
+hr{
+    background-color: rgba(128, 128, 128, 0.267);
+    width: 340px;
+    height: 4px;
+    margin: auto;
+    margin-top: 8px;
+}
+.navbar-postfeed{
+    /* border: 1px solid  red; */
+    display: flex;
+    align-items: center;
+    width: 63%;
+    margin: auto;
+    justify-content: center;
+}
+.postfeed-content{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+.postfeed-profile-pic img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.message{
+    padding: 9px;
+    padding-right: 2px;
+    color: grey;
+}
+input::placeholder{
+    text-indent: 9px;
+    color: grey;
+}
+.message input{
+    padding: 7px;
+    border-radius: 18px;
+    border-color: gray;
+    outline: none;
+}
+.Stories-line{
+    /* border: 1px solid green; */
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.story-feed{
+    /* border: 1px solid  red; */
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-weight: bold;
+    justify-items: center;
+    align-items: center;
+}
+.rule{
+    /* border: 1px solid  red; */
+    opacity: 90px;
+    color: gray;
+    height: 9px;
+    margin: auto;
+    display: flex;
+    justify-content: center;  
+}
+.reels{
+    color: #343da1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.Stories{
+    /* border: 1px solid red; */
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    margin-left: 140px;
+    margin-top: -10px;
+    margin: auto;
+}
+.stories-container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.user-story img{
+    width: 60px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+}
+.user-story{
+    position: relative;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+}
+.cross{
+    position: absolute;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    top: 66px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999; 
+    border: 3px solid white;   
+}
+.user-story p{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.friends-story-wrapper{
+    /* border: 1px solid blue; */
+    width: 50%;
+    display: flex;
+    margin-left: 9px;
+    overflow: scroll;
+}
+.friends-story-wrapper::-webkit-scrollbar{
+    display: none;
+}
+.friends-story{
+    /* border: 1px solid green; */
+    width: 65px;
+    height: 100%;
+    border-radius: 10px;
+    margin-right: 9px;
+}
+.story-image{
+    width: 65px;
+    height: 100%;
+    border-radius: 10px;   
+}
+.friends-story img{
+    width: 65px;
+    height: 100%;
+    border-radius: 10px;
+}
+.story-rule{
+    opacity: 90px;
+    color: gray;
+    height: 9px;
+    /* margin: auto; */
+    display: flex;
+    margin-top: -15px;
+    margin-left: 150px;
+}
+.circle-image img{
+    position: absolute;
+    border: 3px solid blue;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    top: 6px;
+    left: 4px;    
+}
+.story-content{
+    position: relative;
+    /* border: 1px solid red; */
+    width: 65px;
+    height: 100%;
+}
+.user-feed-1{
+    /* border: 1px solid red; */
+    width: 60%;
+    margin: auto;
+    margin-left: 150px; 
+    margin-top: 5px;   
+}
+.user-feed-2{
+    /* border: 1px solid red; */
+    width: 60%;
+    margin: auto;
+    margin-left: 150px; 
+    margin-top: 8px;   
+}
+.feed-content{
+    display: flex;
+    margin-right: 30px;
+    border: 1px solid red;
+}
+
+.feed-image img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.fa-ellipsis{
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.fa-close{
+    font-size: 25px;
+    font-weight: bold;
+}
+.feed-illustration  img{
+    width: 370px;
+    height: 200px;
+    margin-top: 4px;
+}
+.comment-likes-count{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid  red; */
+    width: 370px;
+}
+.likes-comments-secction{
+    display: flex;
+    width: 370px;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.names-likes{
+    display: flex;
+}
+.likes{
+    display: flex;
+}
+.comment{
+    display: flex;
+}
+.feedback{
+    display: flex;
+}
+.fa-thumbs-up{
+    color: blue;
+    margin-right: 10px;
+}
+.fa-comment{
+    margin-right: 10px;
+}
+.fa-arrow-right{
+    margin-right: 10px;
+
+}
