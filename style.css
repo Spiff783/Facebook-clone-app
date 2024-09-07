@@ -344,5 +344,88 @@ input::placeholder{
 }
 .fa-arrow-right{
     margin-right: 10px;
+}
+@media(max-width:768px){
+    .container{
+        width: 100%;
+        overflow-x: hidden;
+
+    }
+    .navbar-container{
+        width: 100%;
+    }
+    .navbar-postfeed{
+        width: 100%;
+    }
+    .Stories{
+        width: 100%;
+        padding: 5px;
+        border: 1px solid red;
+    }
+    .stories-container{
+        width: 100%;
+        border: 1px solid blue;
+    }
+    .friends-story-wrapper{
+        width: 100%;
+    }
+    .user-feed{
+        width: 100%;
+        border: 4px solid green;
+    }
+    .user-feed-1{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .feed-content{
+        width: 100%;
+        margin-right: 0px;
+        border: 2px solid blue;
+
+    }
+    .fa-ellipsis{
+        margin-right: 0px;
+        font-size: 15px;
+    }
+    .fa-close{
+        font-size: 15px;
+    }
+    .feed-illustration{
+        width: 100%;
+    }
+    .comment-likes-count{
+        width: 100%;
+    }
+    .likes-comments-secction{
+        width: 100%;
+    }
+    .user-feed-2{
+        width: 100%;
+    }
+    .names-likes{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .fa-thumbs-up{
+        margin-left: 10px;
+    }
+    .comments{
+        font-weight: bold;
+        font-size: 15px;
+        margin-right: 8px;
+    }
+    .feed-text{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .send-option{
+        margin-right: 10px;
+        font-weight: bold;
+    }
+    .comments-option, .likes-option{
+        font-weight: bold;
+    }
+
+    
 
 }
